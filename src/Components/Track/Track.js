@@ -39,7 +39,7 @@ class Track extends React.Component {
                     <p>{this.props.track.artist} | {this.props.track.album}</p>
                     
                 </div>
-                <img id='albumArt' src = {this.props.track.albumArt}/>
+                <img id='albumArt' src = {this.props.track.albumArt} alt = 'Album Art'/>
                 {this.renderAction()}
                 {/* <button className="Track-action"> +</button> */}
             </div>
